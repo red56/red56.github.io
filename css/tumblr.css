@@ -1,0 +1,224 @@
+/* @override http://red56.co.uk/stylesheets/tumblr.css */
+
+/*because tumblr Dashboard goes over top*/
+#header ul#pagenav {
+	position: relative;
+	top: 2.5em;
+}
+#header ul#pagenav a {
+	color: #999;
+}
+
+#header {
+	padding-right: 90px;
+}
+#header .dim {
+	filter: alpha(opacity = 50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+	margin: 0px 3px;
+}
+
+#description {
+	color: inherit /*COLOR*/;
+	font-size: 11px;
+	line-height: 18px;
+	padding-right: 70px;
+	margin-bottom: 30px;
+}
+
+.date {
+	clear: both;
+	margin: 30px 0px 10px 0px;
+	color: inherit /*COLOR*/;
+	font-size: 24px;
+	text-align: right;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	border-bottom: solid 1px Black;
+}
+
+div.post {
+	margin-bottom: 40px;
+	position: relative;
+}
+
+div.post img.permalink {
+	border-width: 0px;
+	width: 23px;
+	height: 9px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	display: none;
+}
+
+div.post:hover img.permalink {
+	display: block;
+}
+
+div.post h2 {
+	margin: 0px 0px 5px 0px;
+}
+
+div.post h2 a {
+	color: inherit /*COLOR*/;
+ text-decoration: none;
+	border-bottom: dotted 1px #AA5B0B;	
+}
+
+/* Regular Post */
+div.post div.regular {
+	left: 190px;
+}
+
+div.post div.regular blockquote {
+	font-style: italic;
+}
+
+/* Photo Post */
+div.post div.photo img {
+	border-width: 0px;
+}
+
+div.post div.photo div.caption {
+	font-size: 11px;
+	margin-top: 5px;
+	color: inherit /*COLOR*/;
+}
+
+div.post div.photo div.caption a {
+	color: inherit /*COLOR*/;
+}
+
+/* Quote Post */
+div.post div.quote {
+	padding: 0px 30px 0px 30px;
+}
+
+div.post div.quote span.quote {
+	font-size: 24px;
+	color: inherit /*COLOR*/;
+}
+
+div.post div.quote span.quote a {
+	color: inherit /*COLOR*/;
+}
+
+div.post div.quote span.quote big.quote {
+	font: Bold 60px Georgia, serif;
+	line-height: 1px;
+	vertical-align: -23px;
+	opacity: 0.4;
+	-moz-opacity: 0.4;
+	filter: alpha(opacity = 40);
+}
+
+div.post div.quote span.quote big.quote a {
+	text-decoration: none;
+}
+
+div.post div.quote div.source {
+	font-size: 16px;
+	color: inherit /*COLOR*/;
+}
+
+div.post div.quote div.source a {
+	color: inherit /*COLOR*/;
+}
+
+/* Link Post */
+div.post{
+	clear: both;
+}
+div.post div.link {
+	display: inline;
+	width: 100%;
+}
+div.post div.link div.image {
+	float: right;
+	padding-bottom: 1em;
+}
+
+div.post div.link a.link {
+	color: #AA5B0B;
+	text-decoration: none;
+	border-bottom: dotted 1px #AA5B0B;	
+	font-size: 1.3em;
+}
+div.description{
+/*	font-size: 0.8em;*/
+	line-height: 1.5em;
+}
+div.post div.description {
+	padding-top: 1em;
+}
+
+/* Conversation Post */
+div.post div.conversation ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px 0px 0px 1px;
+	border-left: solid 5px inherit /*COLOR*/;
+}
+
+div.post div.conversation ul li {
+	font-size: 12px;
+	padding: 4px 0px 4px 8px;
+	color: inherit /*COLOR*/;
+	margin-bottom: 1px;
+}
+
+div.post div.conversation ul li span.label {
+	font-weight: bold;
+}
+
+div.post div.conversation ul li.odd {
+	background-color: inherit /*COLOR*/;
+}
+
+div.post div.conversation ul li.even {
+	background-color: inherit /*COLOR*/;
+}
+
+/* Audio Post */
+div.post div.audio div.caption {
+	margin-top: 5px;
+	color: inherit /*COLOR*/;
+	font-size: 11px;
+}
+
+div.post div.audio div.caption a {
+	color: inherit /*COLOR*/;
+}
+
+/* Video Post */
+div.post div.video div.caption {
+	margin-top: 5px;
+	color: inherit /*COLOR*/;
+	font-size: 11px;
+}
+
+div.post div.video div.caption a {
+	color: inherit /*COLOR*/;
+}
+
+
+/* disqus */
+div.comments {
+	padding-top: 1em;
+	font-size: 0.8em;	
+}
+div.comments a{
+	color: #555;
+	text-decoration: none;
+	border-bottom: 1px dotted #555;
+}
+
+#wrap div.post div.link div.image a.link img {
+	border-bottom: none;
+}
+
+#disqus_thread {
+	clear: both;
+}

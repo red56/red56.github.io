@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+<HTML>
+	<HEAD>
+		<META  name="description" 
+content="Interactive Advent Calendar for the Web. December 1996. The calendar uses Shockwave, JavaScript and QuickTime.">
+<META  name="keywords" content="interactive art, electroacoustic music, advent, christmas, interactive christmas, dance, digital dance, red56, RED56, Tim Diggins, Nye Parry">
+<TITLE>
+			December 
+		</TITLE>
+	</HEAD>
+	<BODY bgcolor=ffffff text=000000 link=cc3c11><center>
+		<table cellspacing=0 cellpadding=0 width=546>
+			<tr>
+				<td colspan=3>
+					<A HREF="../art/index.html">
+						<IMG SRC="./december.gif" ALT="December" ALIGN=BOTTOM WIDTH=546 HEIGHT=73 BORDER=0>
+					</A>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<IMG SRC="spacer.gif" ALIGN=BOTTOM WIDTH=13 HEIGHT=1 BORDER="0">
+				</td>
+				<td>
+					<IMG SRC="spacer.gif" ALIGN=BOTTOM WIDTH=300 HEIGHT=1 BORDER=0>
+					<br>
+					An advent calendar for the web 
+					<br>
+					concept and structure by Tim Diggins and Nye Parry 
+					<br>
+					&copy;1996 Tim Diggins, Nye Parry and Contributors 
+					<br>
+					<br>
+					
+					<br>
+					<table><tr><td valign="top" colspan=2><font size=+1>Contributors to date </font></td></tr><tr><td valign="top"><A NAME="timdiggins"><br></A></td></tr><tr><td valign="top">Tim Diggins </td><td>email: <A HREF="mailto:tim@red56.co.uk">tim@red56.co.uk</A><br>www: <A HREF="../tim.html">red56.co.uk/tim.html</A><br><A NAME="nyeparry"><br></A></td></tr>
+<tr><td valign="top">Nye Parry </td><td>email: <A HREF="mailto:nye@city.ac.uk">nye@city.ac.uk</A><br> <A NAME="virginiapreston"><br></A></td></tr>
+<tr><td valign="top">  Virginia Preston </td><td>Calligraphy for Sunday, 8 December (Ave Maria) <br> <A NAME="garryhill"><br></A></td></tr>
+<tr><td valign="top"> Garry Hill </td><td>Animation for Monday, 9 December (Car Park in G) <br>Thursday, 12 December (Bugs)<br>email: <A HREF="mailto:garry@red56.co.uk">garry@red56.co.uk</A><br> <A NAME="clarkkozel"><br></A></td></tr>
+				<tr><td valign="top">Jonny Clark and Susan Kozel </td><td>Saturday, 14 December <br><br>email: <A HREF="mailto:100626.512@compuserve.com"> 100626.512@compuserve.com (Jonny Clark)</A><br>
+email: <A HREF="mailto:s.kozel@surrey.ac.uk">s.kozel@surrey.ac.uk</A><br> <A NAME="next"><br></A></td></tr></table>
+				
+				</td>
+				</tr>
+				<tr><td colspan=2></td>
+				<td align=left valign=middle>
+					<IMG SRC="spacer.gif" ALIGN=BOTTOM WIDTH=220 HEIGHT=1 BORDER=0>
+					Requirements<br>
+					<font size=-1>
+						To view this site you will need a Shockwave and JavaScript compatible browser together with the Shockwave plug-in. 
+						<br>
+						<br>
+					
+							Browsers 						<br>
+						<A HREF="http://home.netscape.com/comprod/mirror/client_download.html">Netscape Navigator 2</A>
+						or higher (Netscape 3 preferred) 
+						<br>
+						<A HREF="http://www.microsoft.com/ie/ie.htm">Microsoft Internet Explorer</A>
+						version 3 
+						<br>
+						<br>
+						Plug-ins 
+						<br>
+						<A HREF="http://www.macromedia.com/shockwave/download">Shockwave</A>
+						plug-in (version 5). 
+						<br>
+					</font>
+				</td>
+			</tr>
+		</table>
+	</BODY>
+</HTML>

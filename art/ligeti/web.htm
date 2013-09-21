@@ -1,0 +1,35 @@
+<HTML>
+<HEAD>
+<TITLE>Shockwave</TITLE>
+</HEAD>
+<BODY bgcolor="#000000">
+<!-- Aftershock web.dcr 3=432 4=306 115=http://www.red56.co.uk/art/ligeti/ -->
+<OBJECT classid="clsid:166B1BCA-3F9C-11CF-8075-444553540000"
+ codebase="http://download.macromedia.com/pub/shockwave/cabs/director/sw.cab#version=7,0,0,0"
+ ID=web WIDTH=432 HEIGHT=306>
+	<PARAM NAME=src VALUE="web.dcr"> 
+	<PARAM NAME=sw1 VALUE="http://www.red56.co.uk/art/ligeti/" >
+
+<SCRIPT LANGUAGE=JavaScript>
+<!--
+var ShockMode = 0;
+if (navigator.mimeTypes && navigator.mimeTypes["application/x-director"] && navigator.mimeTypes["application/x-director"].enabledPlugin) {
+	if (navigator.plugins && navigator.plugins["Shockwave for Director"] && (versionIndex = navigator.plugins["Shockwave for Director"].description.indexOf(".")) != - 1) {
+		var versionString = navigator.plugins["Shockwave for Director"].description.substring(versionIndex-1, versionIndex);
+		versionIndex = parseInt( versionString );
+		if ( versionIndex >= 7 )
+			ShockMode = 1;
+	}
+}
+if ( ShockMode ) {
+	document.write('<EMBED SRC="web.dcr"');
+	document.write(' swLiveConnect=FALSE WIDTH=432 HEIGHT=306 sw1="http://www.red56.co.uk/art/ligeti/"');
+	document.write(' TYPE="application/x-director" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveDirector">');
+	document.write('</EMBED>');
+} else if (!(navigator.appName && navigator.appName.indexOf("Netscape")>=0 && navigator.appVersion.indexOf("2.")>=0)){
+	document.write('<IMG SRC="web.jpg" WIDTH=432 HEIGHT=306 BORDER=0>');
+}
+//-->
+</SCRIPT><NOEMBED><IMG SRC="web.jpg" WIDTH=432 HEIGHT=306 BORDER=0></NOEMBED><NOSCRIPT><IMG SRC="web.jpg" WIDTH=432 HEIGHT=306 BORDER=0></NOSCRIPT></OBJECT><!-- EndAftershock web.dcr -->
+</BODY>
+</HTML>

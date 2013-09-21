@@ -1,0 +1,25 @@
+<HTML>
+	<HEAD>
+		<TITLE>
+			December
+		</TITLE>
+	</HEAD>
+	<BODY bgcolor=CC3333>
+	<SCRIPT>
+	today=new Date() 
+	document.write(' <EMBED SRC="index')
+	if (today.getYear()>97) {
+	document.write('25')
+	} else {
+		if (today.getYear()<97||today.getMonth()<11) {
+		document.write('1')
+		} else {
+		document.write(today.getDate())
+		}
+	}
+	document.write('.dcr" width=480 height=300 palette=foreground>')
+	</SCRIPT>
+	
+		
+	</BODY>
+</HTML>

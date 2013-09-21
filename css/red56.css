@@ -1,0 +1,332 @@
+/* @override http://localhost:4331/css/red56.css */
+
+a,
+#header a {
+	color: #A10;
+}
+
+#more.bigbox ul.choices li a {
+	display: block;
+	margin-right: 10px;
+}
+
+#more.bigbox ul.choices li #cv-links {
+	display: block;
+}
+
+#more.bigbox ul.choices li #cv-links a {
+	display: inline-block;
+}
+
+#header {
+	background-color: Black;
+	color: White;
+	height: 20px;
+	padding: 5px 20px;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+ul.menu {
+	list-style: none;
+}
+
+ul.menu li {
+	display: inline-block;
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+ul.menu a {
+	text-decoration: none;
+}
+
+ul.menu a:HOVER {
+	text-decoration: underline;
+}
+
+#footer {
+	height: 20px;
+	width: 100%;
+	height: 30px;
+	background-color: #ccc;
+	border-top: 2px dotted #888;
+	color: #888;
+	padding-top: 12px;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+}
+
+#main {
+	margin-bottom: 60px;
+}
+
+#footer a {
+	color: #888;
+	min-height: 16px;
+	display: inline-block;
+}
+
+#footer ul {
+	
+}
+
+a.twitter {
+	background: url(http://twitter-badges.s3.amazonaws.com/t_mini-a.png) no-repeat;
+	padding-left: 20px;
+;
+}
+
+a.delicious {
+	background: url(http://static.delicious.com/img/delicious.med.gif) no-repeat;
+	padding-left: 20px;
+;
+}
+
+a.github {
+	background: url(../img/github-icon.png) no-repeat;
+	padding-left: 20px;
+;
+}
+
+a.linked-in {
+	background: url(../img/linkedin-icon.png) no-repeat;
+	padding-left: 20px;
+;
+}
+
+#main {
+	width: 960px;
+}
+
+/* @group news-sidebar */
+
+#news-sidebar {
+	position: relative;
+	top: 214px;
+	float: right;
+	width: 250px;
+	margin-left: 0px;
+}
+.news,
+div.more.details.bigbox.news ,
+div.more.details.bigbox.news h3 {
+	font-size: 12px;	
+}
+.latest {
+	background-color: #eee8e0;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #444;
+}
+
+.news a {
+	color: #444;
+}
+
+.news h2 {
+	font-size: 12px;
+	margin-bottom: 10px;
+	color: #000;
+}
+
+.news ul {
+	list-style: none;
+}
+
+.news ul li {
+	margin: 0 0 10px 0;
+}
+
+.news h3 {
+	font-size: inherit;
+	margin-bottom: 0;
+	margin-top: 10px;
+	clear: both;
+}
+
+#main div.details.bigbox p {
+	font-size: 14px;
+}
+
+div.back {
+	clear: left;
+	font-size: 18px;
+	width: 670px;
+	text-align: right;
+	margin-right: 30px;
+}
+
+.news li h3 a {
+	text-decoration: none;
+}
+
+.news li h3 a:HOVER {
+	text-decoration: underline;
+}
+
+.news ul li {
+
+}
+
+.news ul li a.blog-permalink {
+	float: right;
+	display: inline-block;
+	
+
+/*position: absolute;
+	right: 0;
+	bottom: 0;
+	background-color: #ddd;xbackground-color: #A10A10;
+	xcolor: white;
+	padding: 0 5px 0 15px;
+	*/
+	margin-bottom: 10px;
+}
+
+.details.bigbox ul li a {
+	display: block;
+}
+
+.details {
+	margin-left: 15px;
+	margin-right: 40px;
+}
+.more.details {
+	margin-left: 0;
+	padding-left: 350px;
+	margin-right: 40px;	
+}
+
+.news ul li {
+	clear: both;
+}
+
+.news ul li a.delicious-link {
+	text-decoration: none;
+	color: #444;
+	font-weight: bold;
+}
+
+.news ul li a.delicious-link:HOVER {
+	text-decoration: underline;
+}
+
+#delicious-preview li a.link-tag {
+	color: #444;
+	float: right;
+	margin-left: 5px;
+	text-decoration: none;
+}
+#delicious-preview li a.link-tag:HOVER {
+	text-decoration: underline;
+}
+/* @end */
+
+/* @group homepage */
+
+#bigboxes {
+	display: inline-block;
+	margin-right: 10px;
+	width: 700px;
+}
+
+div.bigbox, .latest,
+div.details {
+	border-top: 1px solid #888;
+}
+
+div.bigbox,
+div.details {
+	width: 320px;
+	min-height: 200px;
+	display: inline-block;
+	padding: 20px 0 20px 0;	
+}
+div.bigbox {
+	font-size: 18px;
+	float: left;
+	margin: 0 15px;
+}
+
+div#news-sidebar.news {
+	padding-bottom: 40px;
+}
+
+#programming,
+#design, 
+.bigbox.left,
+#something-else {
+	margin-left: 0px;
+}
+
+#more.bigbox,
+.details.bigbox ul {
+	font-size: 13px;
+}
+
+.details.bigbox h3 {
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+
+.under-construction {
+	color: #f88;
+	font-style: italic;
+	font-weight: normal;
+}
+
+#more.bigbox li {
+	list-style: none;
+	margin-left: 0;
+	padding-bottom: 10px;
+}
+
+p.more a {
+	font-size: 12px;
+	text-align: right;
+	display: inline-block;
+	w
+
+idt h: 100
+%
+;
+}
+
+/* @end */
+
+h1 {
+	position: relative;
+	xbackground-color: #A10;
+	font-size: 18px;
+	xcolor: white;
+	xpadding: 5px 20px;
+	margin: 30px 0;
+}
+
+h1 span.avatar {
+	border: 1px solid #888;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	padding: 2px;
+}
+
+h1 span.avatar .canvas {
+	display: block;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	width: 244px;
+	height: 244px;
+}
+
+h1 .subtitle {
+	font-weight: normal;
+	xcolor: #222;
+	color: #000;
+}
