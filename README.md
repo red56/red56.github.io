@@ -1,8 +1,8 @@
 red56.github.io
 ===============
 
-    gem install jekyll
+bundle install
 
-    jekyll serve -w
-    
-    git push
+jekyll serve -w
+
+git push
