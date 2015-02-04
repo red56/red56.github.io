@@ -189,3 +189,10 @@ body {
     width: 700px;
   }
 }
+
+@media (max-width: 767px) {
+    .cover.inner {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
