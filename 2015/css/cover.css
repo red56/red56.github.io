@@ -6,19 +6,18 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+    color: #CD1D1D;
 }
 
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+    color: #fff;
+    text-shadow: none; /* Prevent inheritence from `body` */
+    background-color: #CD1D1D;
+    border: 1px solid #CD1D1D;
 }
-
 
 /*
  * Base structure
@@ -26,109 +25,146 @@ a:hover {
 
 html,
 body {
-  height: 100%;
-  background-color: #333;
+    height: 100%;
+    background-color: #fff;
 }
+
 body {
-  color: #fff;
-  text-align: center;
-  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+    font-family: "Open Sans", Arial, "Lucida Grande", sans-serif;
+    font-weight: bolder;
+    color: #1b1e1e;
+    text-align: left;
+    /*text-shadow: 0 1px 3px rgba(0,0,0,.5);*/
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
-  display: table;
-  width: 100%;
-  height: 100%; /* For at least Firefox */
-  min-height: 100%;
-  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
-          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+    display: table;
+    width: 100%;
+    height: 100%; /* For at least Firefox */
+    min-height: 100%;
+    /*-webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
+    /*box-shadow: inset 0 0 100px rgba(0,0,0,.5);*/
 }
+
 .site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
+    display: table-cell;
+    vertical-align: top;
 }
+
 .cover-container {
-  margin-right: auto;
-  margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+    padding: 30px;
 }
-
 
 /*
  * Header
  */
+.masthead {
+    background: url('/2016/img/dark-fabric-pattern.png');
+    background-size: 25%;
+    height: 60px;
+    border-bottom: 3px solid #1b1e1e;
+}
+
 .masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #A10;
+    background: url('/2016/img/red56-on-dark-header.png') no-repeat;
+    background-size: 100%;
+    width: 69px;
+    height: 19px;
+}
+
+.masthead a {
     color: #A10;
 }
-.masthead a{
-    color: #A10;
+
+.masthead-nav {
+    margin-top: 11px;
 }
 
 .masthead-nav > li {
-  display: inline-block;
+    display: inline-block;
 }
+
 .masthead-nav > li + li {
-  margin-left: 20px;
+    margin-left: 20px;
 }
+
 .masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
-  border-bottom: 2px solid transparent;
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff; /* IE8 proofing */
+    color: rgba(255, 255, 255, .75);
+    border-bottom: 2px solid transparent;
 }
+
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255,255,255,.25);
+    background-color: transparent;
+    border-bottom-color: #a9a9a9;
+    border-bottom-color: rgba(255, 255, 255, .25);
 }
+
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
+    color: #fff;
+    border-bottom-color: #fff;
 }
 
 @media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
-  }
-}
+    .masthead-brand {
+        float: left;
+    }
 
+    .masthead-nav {
+        float: right;
+    }
+}
 
 /*
  * Cover
  */
 
 .cover {
-  padding: 0 20px;
-}
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
+    padding: 0 20px;
 }
 
+.cover .btn-lg {
+    padding: 10px 20px;
+    font-weight: bold;
+}
 
 .cover.inner {
-    padding: 40px 0;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .cover-heading {
     margin-bottom: 30px;
+    color: #CD1D1D;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 2em;
 }
+
+.cover-heading .brand {
+    background: url('/2016/img/red56-on-white.png') no-repeat;
+    background-size: 50%;
+    width: 256px;
+    height: 50px;
+}
+
 /*
  * Header / Footer
  */
@@ -136,6 +172,7 @@ body {
     background-color: black;
     width: 100%;
 }
+
 .masthead .inner {
     padding: 5px 30px;
 }
@@ -144,50 +181,53 @@ body {
     /*background-color: black;*/
     /*width: 100%;*/
     /*margin-top: 15px;*/
+    font-weight: 100;
 }
+
 .mastfoot .inner {
     padding: 15px 30px 0px;
 }
 
 .mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
+    color: #1b1e1e;
 }
-
 
 /*
  * Affix and center
  */
 
 @media (min-width: 768px) and (min-height: 700px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-      z-index: 100;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
+    /* Pull out the header and footer */
+    .masthead {
+        position: fixed;
+        top: 0;
+        z-index: 100;
+    }
+
+    .mastfoot {
+        position: fixed;
+        bottom: 0;
+    }
+
+    /* Start the vertical centering */
+    .site-wrapper-inner {
+        vertical-align: middle;
+    }
+
+    /* Handle the widths */
+    .masthead,
+    .mastfoot,
+    .cover-container {
+        width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    }
 }
 
 @media (min-width: 992px) {
-  /*.masthead,*/
-  .mastfoot,
-  .cover-container {
-    width: 700px;
-  }
+    /*.masthead,*/
+    .mastfoot,
+    .cover-container {
+        width: 780px;
+    }
 }
 
 @media (max-width: 767px) {
