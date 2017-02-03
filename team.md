@@ -1,5 +1,7 @@
 ---
 layout: category
+redirect_from:
+- /people/tim/
 ---
 
 ## Who we are
