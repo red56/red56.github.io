@@ -1,11 +1,9 @@
 ---
 ---
-
-/*
-   * Globals
-   */
-
-/* Links */
+  /*
+     * Globals
+     */
+  /* Links */
 a,
 a:focus,
 a:hover {
@@ -131,10 +129,17 @@ body {
   }
 
   .masthead-nav {
-    float: right;
+    position: absolute;
+    right: 30px;
+    bottom: -3px;
   }
 }
 
+@media (max-width: 767px) {
+  .masthead-nav {
+    display: none;
+  }
+}
 /*
  * Cover
  */
@@ -168,9 +173,21 @@ body {
   height: 50px;
 }
 
-.cover p{
+.cover {
+  p, ul li {
+    //like p.lead
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+
+    @media (min-width: 768px) {
+      font-size: 21px;
+    }
+  }
 
 }
+
 /*
  * Header / Footer
  */
@@ -202,43 +219,86 @@ body {
  * Affix and center
  */
 
-@media (min-width: 768px) and (min-height: 700px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-    z-index: 100;
+.home {
+  @media (min-width: 768px) {
+    .masthead {
+      height: 200px;
+      max-height: 15%;
+      position: relative;
+      top: 0;
+    }
+  }
+  @media (min-width: 768px) and (min-height: 700px) {
+    /* Pull out the header and footer */
+    .masthead {
+      position: fixed;
+      top: 0;
+      z-index: 100;
+    }
+
+    .mastfoot {
+      position: fixed;
+      bottom: 0;
+    }
+
+    /* Start the vertical centering */
+    .site-wrapper-inner {
+      vertical-align: middle;
+    }
+
+    /* Handle the widths */
+    .masthead,
+    .mastfoot,
+    .cover-container {
+      width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    }
   }
 
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
-
-  /* Start the vertical centering */
-  .site-wrapper-inner {
-    vertical-align: middle;
-  }
-
-  /* Handle the widths */
-  .masthead,
-  .mastfoot,
-  .cover-container {
-    width: 100%; /* Must be percentage or pixels for horizontal alignment */
-  }
 }
 
-@media (min-width: 992px) {
-  /*.masthead,*/
-  .mastfoot,
-  .cover-container {
-    width: 780px;
+.category {
+  @media (min-width: 768px) and (min-height: 700px) { // min-height seems to be height of
+    /* Pull out the header and footer */
+    .masthead {
+      position: fixed;
+      top: 0;
+      z-index: 100;
+    }
+
+    .mastfoot {
+      position: fixed;
+      bottom: 0;
+    }
+
+    /* Start the vertical centering */
+    .site-wrapper-inner {
+      vertical-align: middle;
+    }
+
+    /* Handle the widths */
+    .masthead,
+    .mastfoot,
+    .cover-container {
+      width: 100%; /* Must be percentage or pixels for horizontal alignment */
+    }
   }
+
 }
 
-@media (max-width: 767px) {
-  .cover.inner {
-    padding-left: 15px;
-    padding-right: 15px;
+.home, .category {
+  @media (min-width: 992px) {
+    /*.masthead,*/
+    .mastfoot,
+    .cover-container {
+      width: 780px;
+    }
   }
+
+  @media (max-width: 767px) {
+    .cover.inner {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+
 }

@@ -22,7 +22,8 @@
   <![endif]-->
 </head>
 
-<body>
+<body class="category">
+
 
 <div class="site-wrapper">
 
@@ -35,9 +36,9 @@
         </h3></a>
         <nav>
           <ul class="nav masthead-nav">
-            <li class="active"><a href="/">Home</a></li>
+            <li><a href="/">Home</a></li>
             <!--<li><a href="/people/tim">Tim Diggins</a></li>-->
-            <li><a href="mailto:tim@red56.co.uk">Contact</a></li>
+            <li><a href="{% link contact.md %}">Contact</a></li>
           </ul>
         </nav>
       </div>
@@ -59,7 +60,7 @@
             35 Corbridge Crescent, London E2 9EZ, UK</a>.
             <br>
             Drop in or get in contact with chief technologist
-            <a href="mailto:tim@red56.uk" rel="me">Tim Diggins</a>.
+            <a href="mailto:tim@red56.uk" rel="author">Tim Diggins</a>.
         </div>
       </div>
 
@@ -71,7 +72,7 @@
   ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
   <script src="/vendor/jquery.min.js"></script>
-  <script src="/vendor/bootstrap.min.js"></script>
+  <script src="/vendor/bootstrap3/js/bootstrap.min.js"></script>
   <script src="/vendor/docs.min.js"></script>
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
   <script src="/vendor/ie10-viewport-bug-workaround.js"></script>

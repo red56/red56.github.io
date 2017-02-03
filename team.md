@@ -1,8 +1,8 @@
 ---
-layout: cover
+layout: category
 ---
 
-## Who we aree
+## Who we are
 
 Red56 are a team of business-focused technologists based mostly in London.
 
