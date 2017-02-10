@@ -10,20 +10,16 @@ layout: home
 
 ## Red56
 
-We're a [team of business-focused technologists]({% link team.md %}) providing product
-management, technology development and support.
+[A team of business-focused technologists]({% link team.md %}) providing product
+management, feature development and support.
 
-We [help SMEs improve the flow of work in their business]({% link bespoke_software.md%}) by developing, maintaining,
-and integrating bespoke software (and SaaS).
+[We help SMEs improve their business workflow]({% link bespoke_software.md%}) by developing, maintaining, and integrating bespoke software (and SaaS).
 
-[This works well with long term engagements]({% link long_term.md %}) as we can maximize our impact within an agreed
-quarterly budget and keep the development team fresh with your codebase.
+[This works well with long term engagements]({% link long_term.md %}) as we can maximize impact within an agreed quarterly budget, while keeping up-to-date with the business's evolving developments.
 
-SMEs and startups employ us [to fulfil short-term immediate needs]({% link first_sprint.md %}) (bug fixes,
-software audit, security patching, new business requirements, working prototypes / MVPs).
+[We also fulfil short-term immediate needs]({% link first_sprint.md %}) for startups and SMEs (bug fixes, software audits, security patching, new business requirements, working prototypes / MVPs).
 
-We've built publishing systems for corporates, custom ad servers and tracking servers for ad agencies, done code
-reviews and process consultancy for software owners, and built MVPs for startups.  [What can we do for you?]({% link
+We've built publishing systems for corporates, custom ad and tracking servers for ad agencies, done code reviews and process consultancy for software owners, and built MVPs for startups.  [What can we do for you?]({% link
 contact.md %})
 
 
