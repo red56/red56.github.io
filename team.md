@@ -5,6 +5,7 @@ redirect_from:
 ---
 
 ## Who we are
+A team of business-focused technologists based mostly in London.
 
 * Tim - CTO
 * Ella - full stack web developer
