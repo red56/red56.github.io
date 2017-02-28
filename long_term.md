@@ -4,12 +4,11 @@ layout: category
 
 ## How we support clients in long-term commitments
 
-You define a quarterly budget and we’ll spend the agreed time attending to and developing the product to
-meet your business needs..
+Working with an agreed quarterly budget we’ll spend the allotted time per client attending to and developing their product.
 
-We work together to define a product roadmap based on current needs and medium to long-term business plans.
+We define a product roadmap for each of our clients based on their current needs and medium to long-term business plans.
 
-You’ll be given access to our support system so you can easily request new features as they come to mind and report bugs. This contributes to the product roadmap, building a complete picture of your software requirements.
+Our digital support system allows new features to be easily requested and bugs reported. This contributes to the product roadmap, building a complete picture of the software's requirements.
 
 Using the roadmap and requests submitted via our support system we identify priorities and plan short-bursts of development (sprints) to make changes to the software.
 
@@ -21,4 +20,4 @@ The time of each sprint is broken into the following priorities:
 * Developing and releasing agreed features to deliver business goals
 * Upgrading technical libraries and integrations
 
-The sprint always results in multiple updates to a staging (test) application and at least one update (deployment) to your live application.
+A sprint always results in multiple updates to a staging (test) application and at least one update (deployment) to the live application.
