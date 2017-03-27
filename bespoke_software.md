@@ -1,5 +1,6 @@
 ---
 layout: category
+categories: bespoke
 ---
 
 # Bespoke software for SMEs

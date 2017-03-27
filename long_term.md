@@ -1,5 +1,6 @@
 ---
 layout: category
+categories: roadmap
 ---
 
 ## How we support clients in long-term commitments

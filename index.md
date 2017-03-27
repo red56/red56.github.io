@@ -1,5 +1,6 @@
 ---
 layout: home
+categories: home
 ---
 
 <!--<h1 class="cover-heading">

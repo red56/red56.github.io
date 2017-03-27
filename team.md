@@ -2,6 +2,7 @@
 layout: category
 redirect_from:
 - /people/tim/
+categories: team, tech
 ---
 
 ## Who we are
@@ -20,3 +21,13 @@ New features and bug fixes are built with automated tests (“TDD”). This ensu
 We ensure live systems have automated backups, error and performance monitoring and a shadow “staging” system where new features can be trialled before being pushed to production.
 
 
+## Recent team and tech posts
+
+<ul>
+  {% for post in site.categories.tech %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>

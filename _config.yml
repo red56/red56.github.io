@@ -24,11 +24,20 @@ github_username:  red56
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
 exclude:
   - Gemfile
   - Gemfile.lock
 
-permalink: pretty
+permalink: /:year/:month/:day/:title/
+
+theme: minima
+kramdown:
+  input:          GFM
 
 # Server Config options
 livereload: true     # You no longer need to include --livereload

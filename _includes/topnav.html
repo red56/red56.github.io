@@ -1,0 +1,16 @@
+<ul class="nav masthead-nav">
+  <li class="{% if page.categories contains 'home'%}active{%endif%}">
+    <a href="/">Home</a>
+  </li>
+  <!--<li><a href="/people/tim">Tim Diggins</a></li>-->
+  <li class="{% if page.categories contains 'tech' or page.categories contains 'team'%}active{%endif%}">
+    <a href="{% link team.md %}">Business-focused tech</a></li>
+  <li class="{% if page.categories contains 'bespoke'%}active{%endif%}">
+    <a href="{% link bespoke_software.md %}">Bespoke software</a></li>
+  <li class="{% if page.categories contains 'roadmap'%}active{%endif%}">
+    <a href="{% link long_term.md %}">Build a roadmap</a></li>
+  <li class="{% if page.categories contains 'quick-fixes'%}active{%endif%}">
+    <a href="{% link first_sprint.md %}">Quick fixes</a></li>
+  <li class="{% if page.categories contains 'contact'%}active{%endif%}">
+    <a href="{% link contact.md %}">Contact</a></li>
+</ul>

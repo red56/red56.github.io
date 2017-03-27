@@ -1,5 +1,6 @@
 ---
 layout: category
+categories: quick-fixes
 ---
 
 # Getting started
