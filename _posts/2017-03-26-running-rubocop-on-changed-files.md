@@ -15,10 +15,10 @@ remote's head before pushing.
 
 * before commiting:
 
-      git ls-files -m | xargs ls -1 2>/dev/null | xargs grep '\.rb$' | rubocop
+      git ls-files -m | xargs ls -1 2>/dev/null | grep '\.rb$' | xargs rubocop
 * before pushing:
 
-      git diff-tree -r --no-commit-id --name-only master@\{u\} head | xargs ls -1 2>/dev/null | xargs grep '\.rb$' | rubocop
+      git diff-tree -r --no-commit-id --name-only master@\{u\} head | xargs ls -1 2>/dev/null | grep '\.rb$' | xargs rubocop
 * in ci
 
       rubocop
@@ -36,11 +36,11 @@ One more thing (adding to [Pawel's tweak](http://michalorman.com/2013/12/run-rub
 
 So my final version is:
 
-    git ls-files -m | xargs ls -1 2>/dev/null | xargs grep '\.rb$' | rubocop
+    git ls-files -m | xargs ls -1 2>/dev/null | grep '\.rb$' | xargs rubocop
 
 ### Run before pushing
 
-When pushing, the final `| xargs ls -1 2>/dev/null | xargs grep '\.rb$' | rubocop` is the same, but gathering the list of changed files is different. If it' just one commit you could use `git diff-tree -r --no-commit-id --name-only head` to output a list of files changed (including deleted) in the head. But this won't be comprehensive if you have more than one commit. Another option is to compare with master or origin/master with `git diff-tree -r --no-commit-id --name-only head origin/master`. Or a fancy option is to use `git diff-tree -r --no-commit-id --name-only @\{u\} head` to track changes against the current upstream. But this won't work if you haven't yet set up a remote tracking branch. I'd like to have some shortcut for files that have changed since master and that seems to me to be (using master@\{u\} to refer)
+When pushing, the final `| xargs ls -1 2>/dev/null | grep '\.rb$' | xargs rubocop` is the same, but gathering the list of changed files is different. If it' just one commit you could use `git diff-tree -r --no-commit-id --name-only head` to output a list of files changed (including deleted) in the head. But this won't be comprehensive if you have more than one commit. Another option is to compare with master or origin/master with `git diff-tree -r --no-commit-id --name-only head origin/master`. Or a fancy option is to use `git diff-tree -r --no-commit-id --name-only @\{u\} head` to track changes against the current upstream. But this won't work if you haven't yet set up a remote tracking branch. I'd like to have some shortcut for files that have changed since master and that seems to me to be (using master@\{u\} to refer)
 
     git diff-tree -r --no-commit-id --name-only master@\{u\} head
 
