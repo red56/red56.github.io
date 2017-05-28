@@ -11,14 +11,16 @@ We have just started using rubocop rigorously on legacy codebases we work on, bu
 So should really just run rubocop **on changed files** at latest before committing, or on the diff between head and
 remote's head before pushing.
 
+Updated 28/May/2017 (see below)
+
 ### tldr;
 
 * before commiting:
 
-      git ls-files -m | xargs ls -1 2>/dev/null | grep '\.rb$' | xargs rubocop
+      git ls-files -m | xargs ls -1 2>/dev/null | grep '\.rb$' | xargs rubocop -a --force-exclusion
 * before pushing:
 
-      git diff-tree -r --no-commit-id --name-only master@\{u\} head | xargs ls -1 2>/dev/null | grep '\.rb$' | xargs rubocop
+      git diff-tree -r --no-commit-id --name-only master@\{u\} head | xargs ls -1 2>/dev/null | grep '\.rb$' | xargs rubocop -a --force-exclusion
 * in ci
 
       rubocop
@@ -46,6 +48,11 @@ When pushing, the final `| xargs ls -1 2>/dev/null | grep '\.rb$' | xargs ruboco
 
 (NB giving the command the form that will work in zsh -- it can simply be `@{u}` without backslashes if your shell doesn't use zsh's brace expansion)
 
+### Automatically fix, but exclude
+
+Add -a to automaically fix. But then you have some rules perhaps to exclude some files, so add --force-exclusion to
+force rubocop to respect your exclusion rules even on the set of files you've explicitly passed as arguments
+
 ### Git hooks! Yes? Not for me
 
 You could go all out and add this as a git hook and force yourself and/or everyone to have this workflow. Feels like a mistake to me. That's what CI is for, to catch errors. There may be good reason not to run rubocop (e.g. you just ran it anyway) or bad reasons (you don't have time...)
@@ -58,3 +65,9 @@ In general:
 * `git diff-tree -r --no-commit-id --name-only master@\{u\} head | xargs ls -1 2>/dev/null` is useful as an alias for "files modified compared with master"
 
 These might work well as git aliases or zsh functions
+
+### UPDATE [28/May/2017]
+
+I've added the section for automatically fixing, now I worked out (from rubocop docs) how to get rubocop to exclude
+the files based on your .rubocop.yml. I've updated the resultant command lines
+
