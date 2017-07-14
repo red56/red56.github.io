@@ -1,0 +1,25 @@
+.home {
+  @media only screen and (min-width: $wide) {
+
+    .menu {
+      .menucontent {
+        a.home {
+          display: none;
+        }
+        @media (min-width: $widest) {
+          a.first {
+            margin-left: 0px;
+          }
+        }
+      }
+    }
+      .logo-wrapper {
+      background-color: #fff;
+      .logo {
+        content: url(logo-red-square.png);
+        opacity: 1;
+      }
+    }
+  }
+}
+

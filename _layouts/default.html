@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+
+<head>
+    <title>{{ page.title }}</title>
+    <link href="{{site.baseurl}}/assets/main.css" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="{{ page.pagetype }}">
+
+
+<div class="wrapper">
+
+    <header>
+        <div class="menu">
+            <button class="toggle">MENU</button>
+            <div class="menucontent">
+                <a class="home" href="{{site.baseurl}}/">RED56</a>
+                {% for section in site.data.sections %}
+                    <a
+                        class="{% if forloop.first %}first {% endif%}{% if page.section == section.path %}active{% endif%} "
+                       href="{{site.baseurl}}/{{section.path}}">
+                        {{ section.title}}
+                    </a>
+                {% endfor %}
+            </div>
+        </div>
+    </header>
+
+    <a href="{{site.baseurl}}/">
+        <div class="logo-wrapper">
+            <div class="logo">
+            </div>
+        </div>
+    </a>
+
+    <div class="content">
+        {{ content }}
+    </div>
+
+
+    <footer>
+        <a href="mailto:hello@red56.uk?Subject=Project" target="_top">HELLO@RED56.UK</a>
+    </footer>
+
+</div>
+
+
+</body>
+
+</html>

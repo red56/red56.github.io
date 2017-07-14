@@ -1,0 +1,116 @@
+@media only screen and (min-width: $wide) {
+
+  .content, footer, header {
+    width: 35vw;
+    margin-right: 5vw;
+    margin-left: 55vw;
+  }
+
+  header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40vw;
+    margin-right: 0;
+  }
+
+  .content {
+    margin-top: 13.8vh;
+    margin-bottom: 10vh;
+  }
+
+  footer {
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    display: block;
+    a {
+      display: inline-block;
+      border-bottom: 2px solid $line-grey;
+      margin-bottom: 20px;
+    }
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+
+    .content {
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  }
+
+  .logo-wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    background-color: $pale-pink;
+    height: 100vh;
+    width: 50vw;
+    .logo {
+
+      //content: url(logo-red-square.png);
+      //opacity: 0.15;
+
+      content: url(logo-white-square.png);
+      opacity: 1;
+
+      $logo-width: 32vw;
+      width: $logo-width;
+      max-width: 90vh;
+      height: auto;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-right: 0;
+      margin-left: 0;
+      left: (50vw - $logo-width)/2;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+
+    }
+  }
+
+  .menu {
+    .toggle {
+      text-align: right;
+      color: $line-grey;
+    }
+    .menucontent {
+      text-align: right;
+      a {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: $widest) {
+
+  .menu {
+    .toggle {
+      display: none;
+    }
+    .menucontent,
+    &:hover .menucontent {
+      display: flex;
+      a {
+        padding-bottom: 2px;
+      }
+      a.home {
+        margin-left: 0px;
+        color: $line-grey;
+      }
+      a.active {
+        background-color: transparent;
+        border-bottom: 1px solid $pale-pink;
+      }
+    }
+
+  }
+
+}
+

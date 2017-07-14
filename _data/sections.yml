@@ -1,0 +1,18 @@
+#- path: what
+#  title: WHAT?
+#- path: how
+#  title: HOW?
+#- path: who
+#  title: WHO?
+#- path: getstarted
+#  title: GET STARTED
+#- path: practices
+#  title: OUR PRACTICES
+- path: workflow
+  title: WORKFLOW SOFTWARE
+- path: roadmap
+  title: ROADMAP
+- path: team
+  title: TEAM
+- path: contact
+  title: CONTACT
