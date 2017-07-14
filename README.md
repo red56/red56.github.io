@@ -3,6 +3,6 @@ red56.github.io
 
 bundle install
 
-jekyll serve -w
+jekyll liveserve
 
 git push
