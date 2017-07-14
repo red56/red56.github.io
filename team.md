@@ -36,7 +36,7 @@ We ensure live systems have automated backups, error and performance monitoring 
 <div class="posts">
   {% for post in site.categories.tech %}
     <div class="post">
-      <a href="{{site.baseurl}}/{{ post.url }}">{{ post.title }}
+      <a href="{{ post.url }}">{{ post.title }}
         <small class="excerpt">{{ post.excerpt }}</small>
       </a>
     </div>
