@@ -123,11 +123,14 @@ a {
 
 /* Lists / Bullet points */
 ul {
-  margin-top: 40px;
+  margin-top: 0px;
   margin-left: 0;
   margin-bottom: 55px;
   padding-left: 0;
 
+  li:first-child {
+    padding-top: 0px;
+  }
   li {
     margin: 0;
     margin-left: 1em;

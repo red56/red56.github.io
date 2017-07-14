@@ -6,11 +6,11 @@ categories: roadmap
 
 # Roadmap
 
-We build roadmaps for our clients (startups and SMEs). We start with [quick-fixes to fulful short-term immediate needs](#quick_fixes) (bug fixes, software audits, security patching, new business requirements, working prototypes / MVPs). But we can also work [in a long term engagement](#long_term) with you to maximize impact within an agreed quarterly budget, keeping up-to-date with the business's evolving developments.
+We build roadmaps for our clients (startups and SMEs). We start with [quick-fixes to fulful short-term immediate needs](#quick_fixes) (bug fixes, software audits, security patching, new business requirements, working prototypes / MVPs). But we can also work with you [in a long term engagement](#long_term) to maximize impact within an agreed quarterly budget, keeping up-to-date with the business's evolving developments.
 
 # <a name="quick_fixes">Quick fixes</a>
 
-Our clients don’t necessarily start with a [long-term engagement](roadmap#long_term). Normally there'ssomething which needs fixing within the short-term. These quick wins - bug fixes, a simple new requirement or a security audit/improvement - contribute to the roadmap.
+Our clients don’t necessarily start with a [long-term engagement](#long_term). Normally there'ssomething which needs fixing within the short-term. These quick wins - bug fixes, a simple new requirement or a security audit/improvement - contribute to the roadmap.
 
 This initial project acts as a mini audit, giving us immediate insight into the current state of the software. This includes test coverage, 3rd party integrations, staging server, CI, error reporting and performance and may also include privacy compliance 
 
