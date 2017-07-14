@@ -1,9 +1,10 @@
 ---
-layout: category
-categories: bespoke
+layout: section
+section: workflow
+categories: workflow, bespoke
 ---
 
-# Bespoke software for SMEs
+# Workflow software
 
 We help SMEs improve the flow of work in their business by developing, maintaining, and integrating bespoke software (and SaaS).
 
@@ -23,5 +24,4 @@ needs to be kept to a minimum and replaced or integrated with existing SaaS prov
 -->
 
 This requires a clear understanding of the direction of business, what the users are looking for,
-and the changing expectations of the technology environment. That's why we recommend a [long-term engagement]({% link
- long_term.md %}), but we can start with a [single sprint]({% link first_sprint.md %}).
+and the changing expectations of the technology environment. That's why we recommend a [long-term engagement](roadmap#long_term), but we can start with a [single sprint](roadmap#first_sprint).

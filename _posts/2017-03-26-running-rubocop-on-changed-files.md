@@ -3,8 +3,8 @@ layout: post
 title:  "Running rubocop on changed files"
 date:   2017-03-26
 categories: tech
+section: team
 ---
-
 
 We have just started using rubocop rigorously on legacy codebases we work on, but rubocop takes a minute or more to run every time we commit. This is a bit boring, but we don't want to have to wait for CI to tell us that it fails.
 

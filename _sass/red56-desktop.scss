@@ -1,7 +1,7 @@
 @media only screen and (min-width: $wide) {
 
   .content, footer, header {
-    width: 35vw;
+    width: 40vw;
     margin-right: 5vw;
     margin-left: 55vw;
   }
@@ -52,11 +52,11 @@
     width: 50vw;
     .logo {
 
-      //content: url(logo-red-square.png);
-      //opacity: 0.15;
+      content: url(logo-red-square.png);
+      opacity: 0.15;
 
-      content: url(logo-white-square.png);
-      opacity: 1;
+      //content: url(logo-white-square.png);
+      //opacity: 1;
 
       $logo-width: 32vw;
       width: $logo-width;

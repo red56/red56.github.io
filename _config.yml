@@ -16,7 +16,7 @@
 title: Red56
 email: info@red56.uk
 description: > # this means to ignore newlines until "baseurl:"
-  We help SMEs manage their bespoke software
+  We create workflow software to improve our clients' businesses efficiency
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.red56.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: red56
@@ -29,15 +29,13 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+gems:
+  - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
 
 permalink: /:year/:month/:day/:title/
-
-theme: minima
-kramdown:
-  input:          GFM
 
 # Server Config options
 livereload: true     # You no longer need to include --livereload
