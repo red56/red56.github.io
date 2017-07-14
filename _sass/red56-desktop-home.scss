@@ -7,7 +7,7 @@
           display: none;
         }
         @media (min-width: $widest) {
-          a.first {
+          .item.first {
             margin-left: 0px;
           }
         }

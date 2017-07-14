@@ -81,7 +81,7 @@
     }
     .menucontent {
       text-align: right;
-      a {
+      .item {
         margin-right: 0;
       }
     }
@@ -97,16 +97,22 @@
     .menucontent,
     &:hover .menucontent {
       display: flex;
-      a {
+      @include reveal-menucontent();
+      .item {
         padding-bottom: 2px;
       }
-      a.home {
+      .item.home {
         margin-left: 0px;
-        color: $line-grey;
+        a { color: $line-grey;}
       }
-      a.active {
+      .item.active a {
         background-color: transparent;
         border-bottom: 1px solid $pale-pink;
+      }
+      a:hover, .item.active a:hover {
+        border-bottom: 1px solid $line-grey;
+        background-color: transparent;
+        color: $dark-grey;
       }
     }
 
