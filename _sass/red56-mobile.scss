@@ -67,8 +67,22 @@ header {
 
   .posts {
     .post {
-      font-size: 75%;
-      line-height: 1.3em;
+      a[href] {
+        display: block;
+        text-decoration: none;
+        heading {
+          text-decoration: solid underline $line-grey;
+        }
+        &:hover {
+          background-color: $line-grey;
+          heading {
+          text-decoration: solid underline $dark-grey;
+        }
+        }
+      }
+      heading {
+        
+      }
       .excerpt {
         display: block;
         padding-left: 20px;
