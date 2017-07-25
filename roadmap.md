@@ -10,7 +10,7 @@ We build roadmaps for our clients (startups and SMEs). We start with [quick-fixe
 
 # <a name="quick_fixes">Quick fixes</a>
 
-Our clients don’t necessarily start with a [long-term engagement](#long_term). Normally there'ssomething which needs fixing within the short-term. These quick wins - bug fixes, a simple new requirement or a security audit/improvement - contribute to the roadmap.
+Our clients don’t necessarily start with a [long-term engagement](#long_term). Normally there's something which needs fixing within the short-term. These quick wins - bug fixes, a simple new requirement or a security audit/improvement - contribute to the roadmap.
 
 This initial project acts as a mini audit, giving us immediate insight into the current state of the software. This includes test coverage, 3rd party integrations, staging server, CI, error reporting and performance and may also include privacy compliance 
 
