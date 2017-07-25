@@ -35,10 +35,10 @@ We ensure live systems have automated backups, error and performance monitoring 
 
 <div class="posts">
   {% for post in site.categories.tech %}
-    <div class="post">
-      <a href="{{ post.url }}">{{ post.title }}
-        <small class="excerpt">{{ post.excerpt }}</small>
+    <article class="post">
+      <a href="{{ post.url }}"><heading>{{ post.title }}</heading>
+        <div class="excerpt">{{ post.excerpt }}</div>
       </a>
-    </div>
+    </article>
   {% endfor %}
 </div>
