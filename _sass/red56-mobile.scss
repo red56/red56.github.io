@@ -52,11 +52,10 @@ header {
     font-family: FaktProNormal;
   }
   a[href] {
-    text-decoration: underline;
-    text-decoration-color: $line-grey;
-    color: $dark-grey;
+    text-decoration-skip: ink;
+    text-decoration: solid underline $line-grey;
     &:hover {
-      color: black;
+      text-decoration-color: $dark-grey;
     }
   }
 
