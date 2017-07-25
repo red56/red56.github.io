@@ -52,17 +52,16 @@
     height: 100vh;
     width: 50vw;
     .logo {
-
-      content: url(logo-red-square.png);
+      background-size: cover;
       opacity: 0.15;
 
       //content: url(logo-white-square.png);
       //opacity: 1;
 
       $logo-width: 32vw;
+      $aspect-ratio: 1/1;
       width: $logo-width;
       max-width: 90vh;
-      height: auto;
       margin-top: auto;
       margin-bottom: auto;
       margin-right: 0;
