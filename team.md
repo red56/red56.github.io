@@ -17,9 +17,9 @@ categories: team, tech
 
 We have been priviledged to have some great people work with us  
 
-* Ella Schofield 
-* Nick Roberts 
-* Paul Battley 
+* Ella Schofield
+* Nick Roberts
+* [Paul Battley](http://www.abstractsymbol.com/)
 * Kolin Burges
 * Alistair Roche
 * Callum Chapman
